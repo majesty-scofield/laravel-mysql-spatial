@@ -309,7 +309,7 @@ Available scopes:
 
 ## Migrations
 
-For Laravel versions prior to 5.5, you can use the Blueprint provided with this package: `Grimzy\LaravelMysqlSpatial\Schema\Blueprint`.
+For Laravel versions prior to 5.5, you can use the Blueprint provided with this package: `MajestyScofield\LaravelMysqlSpatial\Schema\Blueprint`.
 
 ```php
 use Illuminate\Database\Migrations\Migration;
