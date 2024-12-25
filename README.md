@@ -159,9 +159,9 @@ $place1->save();
 Or if your database fields were created with a specific SRID:
 
 ```php
-use Grimzy\LaravelMysqlSpatial\Types\Point;
-use Grimzy\LaravelMysqlSpatial\Types\Polygon;
-use Grimzy\LaravelMysqlSpatial\Types\LineString;
+use MajestyScofield\LaravelMysqlSpatial\Types\Point;
+use MajestyScofield\LaravelMysqlSpatial\Types\Polygon;
+use MajestyScofield\LaravelMysqlSpatial\Types\LineString;
 
 $place1 = new Place();
 $place1->name = 'Empire State Building';
