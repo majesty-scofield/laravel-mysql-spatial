@@ -1,6 +1,6 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Eloquent;
+namespace MajestyScofield\LaravelMysqlSpatial\Eloquent;
 
 use Grimzy\LaravelMysqlSpatial\Types\GeometryInterface;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;

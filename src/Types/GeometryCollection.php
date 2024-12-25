@@ -1,13 +1,13 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Types;
+namespace MajestyScofield\LaravelMysqlSpatial\Types;
 
 use ArrayAccess;
 use ArrayIterator;
 use Countable;
 use GeoJson\Feature\FeatureCollection;
 use GeoJson\GeoJson;
-use Grimzy\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException;
+use MajestyScofield\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException;
 use Illuminate\Contracts\Support\Arrayable;
 use InvalidArgumentException;
 use IteratorAggregate;
@@ -87,7 +87,7 @@ class GeometryCollection extends Geometry implements IteratorAggregate, ArrayAcc
         return $this->items;
     }
 
-    public function getIterator()
+    public function getIterator(): ArrayIterator
     {
         return new ArrayIterator($this->items);
     }

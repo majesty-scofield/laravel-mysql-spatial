@@ -1,10 +1,10 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Types;
+namespace MajestyScofield\LaravelMysqlSpatial\Types;
 
 use GeoJson\GeoJson;
 use GeoJson\Geometry\MultiPoint as GeoJsonMultiPoint;
-use Grimzy\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException;
+use MajestyScofield\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException;
 
 class MultiPoint extends PointCollection
 {

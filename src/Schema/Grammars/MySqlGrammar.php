@@ -1,8 +1,8 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Schema\Grammars;
+namespace MajestyScofield\LaravelMysqlSpatial\Schema\Grammars;
 
-use Grimzy\LaravelMysqlSpatial\Schema\Blueprint;
+use MajestyScofield\LaravelMysqlSpatial\Schema\Blueprint;
 use Illuminate\Database\Schema\Grammars\MySqlGrammar as IlluminateMySqlGrammar;
 use Illuminate\Support\Fluent;
 

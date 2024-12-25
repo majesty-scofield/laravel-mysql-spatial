@@ -1,10 +1,10 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Types;
+namespace MajestyScofield\LaravelMysqlSpatial\Types;
 
 use GeoIO\WKB\Parser\Parser;
 use GeoJson\GeoJson;
-use Grimzy\LaravelMysqlSpatial\Exceptions\UnknownWKTTypeException;
+use MajestyScofield\LaravelMysqlSpatial\Exceptions\UnknownWKTTypeException;
 use Illuminate\Contracts\Support\Jsonable;
 
 abstract class Geometry implements GeometryInterface, Jsonable, \JsonSerializable

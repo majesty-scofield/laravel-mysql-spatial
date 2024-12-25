@@ -1,6 +1,6 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Connectors;
+namespace MajestyScofield\LaravelMysqlSpatial\Connectors;
 
 use Grimzy\LaravelMysqlSpatial\MysqlConnection;
 use Illuminate\Database\Connectors\ConnectionFactory as IlluminateConnectionFactory;

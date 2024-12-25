@@ -1,10 +1,10 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Types;
+namespace MajestyScofield\LaravelMysqlSpatial\Types;
 
 use GeoJson\GeoJson;
 use GeoJson\Geometry\Point as GeoJsonPoint;
-use Grimzy\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException;
+use MajestyScofield\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException;
 
 class Point extends Geometry
 {

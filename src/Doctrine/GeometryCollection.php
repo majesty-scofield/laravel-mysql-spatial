@@ -1,6 +1,6 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Doctrine;
+namespace MajestyScofield\LaravelMysqlSpatial\Doctrine;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\Type;

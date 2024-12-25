@@ -1,10 +1,10 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Types;
+namespace MajestyScofield\LaravelMysqlSpatial\Types;
 
 use GeoJson\GeoJson;
 use GeoJson\Geometry\MultiLineString as GeoJsonMultiLineString;
-use Grimzy\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException;
+use MajestyScofield\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException;
 
 class MultiLineString extends GeometryCollection
 {
@@ -83,7 +83,7 @@ class MultiLineString extends GeometryCollection
      *
      * @return \GeoJson\Geometry\MultiLineString
      */
-    public function jsonSerialize()
+    pu  blic function jsonSerialize()
     {
         $lineStrings = [];
 
