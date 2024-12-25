@@ -50,5 +50,6 @@
                 "MajestyScofield\\LaravelMysqlSpatial\\SpatialServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
