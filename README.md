@@ -12,12 +12,7 @@ Please check the documentation for your MySQL version. MySQL's Extension for Spa
 
 **Versions**
 
-- `1.x.x`: MySQL 5.6 (also supports MySQL 5.5 but not all spatial analysis functions)
-- `2.x.x`: MySQL 5.7 and 8.0 (Laravel version < 8.0)
-- `3.x.x`: MySQL 8.0 with SRID support (Laravel version < 8.0)
-- **`4.x.x`: MySQL 8.0 with SRID support (Laravel 8+) [Current branch]**
-- `5.x.x`: MySQL 5.7 and 8.0 (Laravel 8+)
-- `6.x.x`: MySQL 5.7 and 9.0 (Laravel 9+)
+- `1.x.x`: MySQL 5.7 and 9.0 (Laravel 9+)
 
 This package also works with MariaDB. Please refer to the [MySQL/MariaDB Spatial Support Matrix](https://mariadb.com/kb/en/library/mysqlmariadb-spatial-support-matrix/) for compatibility.
 
@@ -26,34 +21,9 @@ This package also works with MariaDB. Please refer to the [MySQL/MariaDB Spatial
 Add the package using composer:
 
 ```sh
+# for Laravel version >= 8.0
 $ composer require laravel-mysql-spatial/laravel-mysql-spatial
-
-# or for Laravel version < 8.0
-$ composer require laravel-mysql-spatial/laravel-mysql-spatial
-```
-
-For MySQL 5.7:
-
-```shell
-$ composer require grimzy/laravel-mysql-spatial:^2.0
-```
-
-For MySQL 5.6 and 5.5:
-
-```shell
-$ composer require grimzy/laravel-mysql-spatial:^1.0
-```
-
-For Laravel versions before 5.5 or if not using auto-discovery, register the service provider in `config/app.php`:
-
-```php
-'providers' => [
-  /*
-   * Package Service Providers...
-   */
-  Grimzy\LaravelMysqlSpatial\SpatialServiceProvider::class,
-],
-```
+``
 
 ## Quickstart
 
